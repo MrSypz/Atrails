@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "atrails",
+  "version": "${version}",
+  "name": "Atrails",
+  "description": "Simple mod that make arrow trails",
+  "authors": ["MrSypztep"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/atrails/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "sypztep.atrails.client.AtrailsClient"
+    ]
+  },
+  "mixins": [
+    "atrails.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

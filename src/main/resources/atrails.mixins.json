@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "sypztep.atrails.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "ArrowPos",
+    "ArrowTrailRenderer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
